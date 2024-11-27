@@ -1,0 +1,12 @@
+[package]
+name = "gh-pr-tree"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arc-swap = "1.7.1"
+jiff = "0.1.14"
+rocket = "0.5.1"
+serde = { version = "1.0.215", features = ["derive"] }
+serde_json = "1.0.133"
+tokio = { version = "1.41.1", features = ["full", "macros", "rt", "rt-multi-thread", "time"] }
